@@ -6,43 +6,392 @@ uid: 9bf90ec5-f6c3-057e-2517-e9ca566f7933
 
 Readings are from the textbook: Jones, Neil C., and Pavel A. Pevzner. _An Introduction to Bioinformatics Algorithms_ (Computational Molecular Biology), Bradford Books. Cambridge, MA: MIT Press, August 1, 2004. ISBN: 0262101068.
 
-| LEC # | TOPICS | READINGS |
-| --- | --- | --- |
-| {{< td-colspan 3 >}}**Introduction to Biology**{{< /td-colspan >}} |||
-| 1 | The Central Dogma: Some Algorithms Introduction |  |
-| {{< td-colspan 3 >}}**Enumerative Solutions: Partial Digest Problem and Median Strings**{{< /td-colspan >}} |||
-| 2 | Partial Digest Problem | Chapter 4 |
-| 3 | Motifs and Median Strings | Chapter 4 |
-| {{< td-colspan 3 >}}**Dynamic Programming: Sequence Alignments**{{< /td-colspan >}} |||
-| 4 | Global Alignment | Chapter 6 |
-| 5 | Local Alignment | Chapter 6 |
-| 6 | Spliced Alignment | Chapter 6 |
-| 7 | More Efficient Alignment | Chapter 7 |
-| {{< td-colspan 3 >}}**Graph Theory: Sequencing Genes and Proteins**{{< /td-colspan >}} |||
-| 8 | Genomics and SBH Graphs | Chapter 8 |
-| 9 | Peptide Graphs | Chapter 8 |
-| {{< td-colspan 3 >}}**Pattern Matching: Exact Matches, Gapless Alignments, and BLAST**{{< /td-colspan >}} |||
-| 10 | Exact Pattern Matching | Chapter 9 |
-| 11 | Suffix Trees |  |
-| 12 | Suffix Arrays and BWTs | Chapter 9 |
-| 13 | BLAST | Chapter 9 |
-| {{< td-colspan 3 >}}**Clustering: Microarrays and Phylogeny**{{< /td-colspan >}} |||
-| 14 | Clustering (Guest Lecturer) | Chapter 10 |
-| 15 | Trees | Chapter 10 |
-| {{< td-colspan 3 >}}**Neighbor Joining**{{< /td-colspan >}} |||
-| 16 | Review of Phylogenetic Analysis  {{< br >}}  {{< br >}}Coalescent Theory in Biology |  |
-| 17 | Application: Microarrays (Guest Lecturer) | Chapter 10 |
-| {{< td-colspan 3 >}}**Probabilistic Models and Machine Learning: Gene Annotation and Evolution**{{< /td-colspan >}} |||
-| 18 | Hidden Markov Models I | Chapter 11 |
-| 19 | Hidden Markov Models II | Chapter 11 |
-| 20 | Gibbs Sampling | Chapter 12 |
-| 21 | Random Projections | Chapter 12 |
-| 22 | MCMC and Bayesian Networks |  |
-| {{< td-colspan 3 >}}**Horizons**{{< /td-colspan >}} |||
-| 23 | The Future: Protein Structure (Guest Lecturer) |  |
-| 24 | The Future: Haplotype Mapping (Guest Lecturer) |  |
-| 25 | Presentations of Final Projects |  |
-| 26 | Presentations of Final Projects (cont.) |  
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Introduction to Biology**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+The Central Dogma: Some Algorithms Introduction
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Enumerative Solutions: Partial Digest Problem and Median Strings**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Partial Digest Problem
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Motifs and Median Strings
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Dynamic Programming: Sequence Alignments**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Global Alignment
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Local Alignment
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Spliced Alignment
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+More Efficient Alignment
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 7
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Graph Theory: Sequencing Genes and Proteins**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Genomics and SBH Graphs
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 8
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Peptide Graphs
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 8
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Pattern Matching: Exact Matches, Gapless Alignments, and BLAST**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Exact Pattern Matching
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 9
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Suffix Trees
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Suffix Arrays and BWTs
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 9
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+BLAST
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 9
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Clustering: Microarrays and Phylogeny**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Clustering (Guest Lecturer)
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 10
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Trees
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 10
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Neighbor Joining**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Review of Phylogenetic Analysis  
+  
+Coalescent Theory in Biology
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Application: Microarrays (Guest Lecturer)
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 10
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Probabilistic Models and Machine Learning: Gene Annotation and Evolution**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Hidden Markov Models I
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 11
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Hidden Markov Models II
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 11
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Gibbs Sampling
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 12
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Random Projections
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 12
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+MCMC and Bayesian Networks
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Horizons**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+The Future: Protein Structure (Guest Lecturer)
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+The Future: Haplotype Mapping (Guest Lecturer)
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Presentations of Final Projects
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+26
+{{< tdclose >}}
+{{< tdopen >}}
+Presentations of Final Projects (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Recommended Readings
 --------------------
