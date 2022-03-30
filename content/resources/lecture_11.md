@@ -5,6 +5,7 @@ description: 'These notes from Lecture 11 cover the following topics: review; ke
   McCreight''s method.'
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/18-417-introduction-to-computational-molecular-biology-fall-2004/9217abf66a26cdc3a539b8a2f7349e14_lecture_11.pdf
 file_type: application/pdf
+parent_uid: 7d35d7d9-97e3-ac34-cd3a-945090b26e21
 resourcetype: Document
 title: lecture_11.pdf
 uid: 9217abf6-6a26-cdc3-a539-b8a2f7349e14

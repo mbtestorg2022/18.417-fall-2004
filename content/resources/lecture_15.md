@@ -5,6 +5,7 @@ description: 'These notes from Lecture 15 cover the following topics: evolution;
   reconstruction; approximate additive tree reconstruction; character-based methods.'
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/18-417-introduction-to-computational-molecular-biology-fall-2004/e6010625034d3db423353fbe0d68e969_lecture_15.pdf
 file_type: application/pdf
+parent_uid: 7d35d7d9-97e3-ac34-cd3a-945090b26e21
 resourcetype: Document
 title: lecture_15.pdf
 uid: e6010625-034d-3db4-2335-3fbe0d68e969
